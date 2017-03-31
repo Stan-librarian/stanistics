@@ -9,11 +9,9 @@
 		<title>Stanistics Online</title>
 		<link rel="stylesheet" type="text/css" href="jquery-ui.css" media="screen" /> 
 		<link rel="stylesheet" type="text/css" href="stanistics.css" media="screen" /> 
-		<script src="sorttable.js"></script>
 		<script type="text/javascript" src="sorttable.js"></script>
 		<script type="text/javascript" src="jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="jquery-ui.js"></script>
-		<!--<script type="text/javascript" src="shortcut.js"></script>-->
 		<script type="text/javascript">
 			$.datepicker.regional['fr'] = {
 				closeText: 'Fermer',
@@ -39,9 +37,6 @@
 		</script>
 	</head>
 	<body>
-		<?php
-		// echo '<script>alert("popup d\'alerte en javascript")</script>';
-		?>
 		<h1>Stanistics Online - Sélection des exemplaires<a href="http://www.bm-lille.fr/" target="_blank"><img src="./images/logo_bml.png" height="50px" class="flotte" /></a></h1>
 		<p>Sélectionner une ou plusieurs localisation(s), sous-localisation(s) etc… puis cliquer sur <b>Envoyer</b></p>
 		<a href="aide.html"  onclick="window.open('aide.html', 'Popup', 'scrollbars=yes,resizable=yes,height=400,width=600,top=300,left=300'); return false;" target ="_blank">Aide</a>
