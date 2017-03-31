@@ -16,3 +16,6 @@ HTML/PHP tool to send PostgreSQL queries to the database of a Bibliomondo Portfo
 
 ## CREDITS
 Uses [JQuery](https://jquery.com/) to get up a calendar for picking up a date and [SortTable](https://www.kryogenix.org/code/browser/sorttable/) to… sort tables !
+
+## LANGUAGE
+French
