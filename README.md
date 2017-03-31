@@ -13,3 +13,6 @@ PHP tool to send PostgreSQL queries to the database of a Bibliomondo Portfolio I
 2. select the fields you want to display
 3. get the result as an html table
 4. (optionnal) downlad a csv file
+
+## CREDITS
+Uses [JQuery](https://jquery.com/) and [SortTable](https://www.kryogenix.org/code/browser/sorttable/) (under the X11 licence)
