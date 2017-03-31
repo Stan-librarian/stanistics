@@ -1,0 +1,130 @@
+body {
+	background-color: #ffffff; 
+	color: #006a82; 
+	font-family: arial;
+	scrollbar-face-color: #006a82;
+}
+
+#container {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: #006a82;
+	margin: 5px;
+	align-items: stretch;
+	align-content: stretch;
+	border-radius: 15px; 
+	/*
+	justify-content:
+		flex-start (par défaut) : les items sont regroupés en début de ligne
+		flex-end : les items sont regroupés en fin de ligne
+		center : les items sont centrés le long de la ligne
+		space-between : les items sont répartis sur la ligne; le premier est collé du côté start, le dernier du côté end.
+		space-around : les items sont répartis sur la ligne avec un espacement égal autour de chacun.
+	*/
+	}
+	
+.element {
+	width: auto;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	border-radius: 15px; 
+}
+.boite {
+	font-weight: bold;
+	font-size: 1em;
+	margin-bottom: 2px;
+}
+
+.bouton_bleu {
+	background-color: #006a82; 
+	color: #ffffff; 
+	margin-top: 5px; 
+	border: 1px outset #006a82; 
+	border-radius: 15px; 
+	font-size: 1em;
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+}
+.bouton_bleu:hover {
+	background-color:#FFFFFF; 
+	color:  #006a82; 
+}
+
+.popup_bleue {
+	background-color: #006a82; 
+	color: #ffffff; 
+	text-align: justify;
+}
+
+.flotte {float:right;}
+
+select {
+	width: 100%;
+	border-radius: 10px; 
+}
+
+table, th, td, {
+	border: 1px solid #006a82;
+	border-collapse: collapse;
+	margin: 5px;
+	padding: 5px;
+	valign: top;
+}
+
+/* th {background-color: #C0A729; color: #ffffff;} */
+th {background-color: #006a82; color: #ffffff; font-size: 1.5em;}
+
+tr.gras {font-weight: bold;}
+
+ul.main {list-style-type: none;}
+
+ul.main li:before {
+	/*content: "\0261E"; main (&#9758;) */
+	/*content: "\2714"; coche (&#10003;) */
+	content: "\02794"; /*flèche (&#10132;) (cf http://htmlarrows.com/symbols/) */
+    padding-right: 5px;
+}
+
+input, select, textarea {
+	color: #006a82;
+	border-radius: 10px; 
+}
+
+input:checked  {
+	border-radius: 10px; 
+}
+
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							padding-left:23px;
+							/*height:18px; */
+							display:inline-block;
+							line-height:18px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							/*font-size:18px;*/
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -18px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_001aa7bf6327f8fac80e0eb160776ef4.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+option:checked {background-color: #006a82; color: #ffffff;}
