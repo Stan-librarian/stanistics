@@ -15,4 +15,4 @@ PHP tool to send PostgreSQL queries to the database of a Bibliomondo Portfolio I
 4. (optionnal) downlad a csv file
 
 ## CREDITS
-Uses [JQuery](https://jquery.com/) and [SortTable](https://www.kryogenix.org/code/browser/sorttable/) (under the X11 licence)
+Uses [JQuery](https://jquery.com/) to get up a calendar for picking up a date and [SortTable](https://www.kryogenix.org/code/browser/sorttable/) to… sort tables !
