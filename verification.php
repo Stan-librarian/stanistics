@@ -2,7 +2,6 @@
 <?php
 	require('functions.php');
 	$myIniFile = parse_ini_file ("config.ini", TRUE);
-	connect_to_database();
 ?>
 <html Content-Type: text/html; charset=UTF-8>
 	<head>
